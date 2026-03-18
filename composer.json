@@ -1,0 +1,13 @@
+{
+  "name": "ec-cube/favorite-count",
+  "version": "1.0.0",
+  "description": "商品詳細ページにお気に入り登録数を表示するプラグイン",
+  "type": "eccube-plugin",
+  "require": {
+    "ec-cube/plugin-installer": "~0.0.6 || ^2.0"
+  },
+  "extra": {
+    "code": "FavoriteCount",
+    "supported-versions": ["4.2", "4.3"]
+  }
+}

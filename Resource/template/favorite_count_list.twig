@@ -1,0 +1,8 @@
+{% set count = favorite_counts[Product.id] ?? 0 %}
+{% if count > 0 %}
+<div style="margin:4px 0;">
+    <span style="display:inline-block;color:#e05c80;font-size:0.85em;padding:3px 10px;border:1px solid #e05c80;border-radius:20px;">
+        ♡ {{ count }}人がお気に入り登録
+    </span>
+</div>
+{% endif %}
